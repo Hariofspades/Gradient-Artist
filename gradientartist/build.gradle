@@ -1,5 +1,22 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'Android'
+    bintrayName = 'gradientartist'
+    publishedGroupId = 'com.hariofspades.gradientartist'
+    libraryName = 'gradientartist'
+    artifact = 'gradientartist'
+    libraryDescription = 'Flexible Gradient ImageView'
+    siteUrl = 'https://github.com/Hariofspades/Gradient-Artist'
+    gitUrl = 'https://github.com/Hariofspades/Gradient-Artist.git'
+    libraryVersion = '0.0.1'
+    developerId = 'hariofspades'
+    developerName = 'Hari Vignesh Jayapalan'
+    developerEmail = 'hariutd@gmail.com'
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
@@ -29,3 +46,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.github.bumptech.glide:glide:3.7.0'
 }
+
+apply from: 'https://raw.githubusercontent.com/Hariofspades/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/Hariofspades/JCenter/master/bintrayv1.gradle'
