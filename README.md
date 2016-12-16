@@ -5,7 +5,7 @@
 
 <img src=https://raw.githubusercontent.com/Hariofspades/Gradient-Artist/master/assets/wallpaper.png >
 
-## Note : Learn to create your own library <a href="https://medium.com/@harivigneshjayapalan/learning-to-implement-your-first-android-ui-library-part-1-be7a31e5ccc3#.4lau12esr">@medium</a>
+## Note : Learn to create your own library <a href="https://medium.com/@harivigneshjayapalan/learning-to-implement-your-first-android-ui-library-part-1-be7a31e5ccc3#.4lau12esr" target="_blank">@medium</a>
 
 ### Gradient ImageView 
 
